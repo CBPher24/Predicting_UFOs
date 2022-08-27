@@ -1,0 +1,38 @@
+.jumbotron {
+    text-align: center;
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.nav-link {
+    text-decoration-color: greenyellow;
+
+}
+
+.dropdown-menu{
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+
+body{
+    background-color: black;
+}
+
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+
+  .image-stack__item--top {
+    grid-column: 1 / span 8;
+    grid-row: 1; 
+    padding-top: 20%;
+    z-index: 1; 
+  }
+
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1; 
+  }
