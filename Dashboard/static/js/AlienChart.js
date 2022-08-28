@@ -31,11 +31,11 @@ series.labelsContainer.set("width", 100);
 series.ticks.template.set("location", 0.6);
 
 var data = [
-  { value: (4/10)*100, category: "California"},
-  { value: (2/10)*100, category: "New York" },
-  { value: (1/10)*100, category: "Florida"},
-  { value: (2/10)*100, category: "Washington"},
-  { value: (1/10)*100, category: "Texas"},
+  { value: (21926/172107)*100, category: "California"},
+  { value: (9942/172107)*100, category: "Florida" },
+  { value: (9124/172107)*100, category: "Washington"},
+  { value: (8309/172107)*100, category: "Texas"},
+  { value: (7444/172107)*100, category: "New York"},
   ];
 // Set data
 // https://www.amcharts.com/docs/v5/charts/percent-charts/sliced-chart/#Setting_data
