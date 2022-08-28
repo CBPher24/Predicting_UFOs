@@ -3,7 +3,7 @@ from flask import Flask, render_template
 # from flask_pymongo import PyMongo
 
 # template_fol = os.path.abspath("../templates")
-app = Flask(__name__, template_folder = "Dashboard\pages")
+app = Flask(__name__, template_folder = "Dashboard/pages", static_folder="Dashboard/static")
 
 
 
@@ -23,6 +23,10 @@ def speculation():
 @app.route("/TheData")
 def data():
     return render_template("the_data.html")
+
+@app.route("/DoD")
+def dod():
+    return render_template("dod.html")
 
 @app.route("/O'Hare")
 def ohare():
