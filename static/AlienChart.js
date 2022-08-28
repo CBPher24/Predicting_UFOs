@@ -30,18 +30,16 @@ var series = chart.series.push(am5percent.PictorialStackedSeries.new(root, {
 series.labelsContainer.set("width", 100);
 series.ticks.template.set("location", 0.6);
 
-
+var data = [
+  { value: (4/10)*100, category: "One" },
+  { value: (2/10)*100, category: "Two" },
+  { value: (2/10)*100, category: "Three" },
+  { value: (2/10)*100, category: "Four" },
+  ];
 // Set data
 // https://www.amcharts.com/docs/v5/charts/percent-charts/sliced-chart/#Setting_data
-series.data.setAll([
-  { value: 10, category: "One" },
-  { value: 9, category: "Two" },
-  { value: 6, category: "Three" },
-  { value: 5, category: "Four" },
-  { value: 4, category: "Five" },
-  { value: 3, category: "Six" },
-  { value: 1, category: "Seven" }
-]);
+
+series.data.setAll(data);
 
 
 // Play initial series animation
