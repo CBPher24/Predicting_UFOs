@@ -36,6 +36,7 @@ var data = [
   { value: (9124/172107)*100, category: "Washington"},
   { value: (8309/172107)*100, category: "Texas"},
   { value: (7444/172107)*100, category: "New York"},
+  { value: (115362/172107)*100, category: "other"},
   ];
 // Set data
 // https://www.amcharts.com/docs/v5/charts/percent-charts/sliced-chart/#Setting_data
