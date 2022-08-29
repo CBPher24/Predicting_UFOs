@@ -4,6 +4,8 @@
     background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
+    mask-border-width: 30px;
+    border-color: darkslategray;
 }
 .nav-link {
     text-decoration-color: greenyellow;
@@ -36,7 +38,7 @@ body{
     grid-column: 4 / -1;
     grid-row: 1; 
   }
-  .map{
+  /* .map{
 
         background: rgb(0, 0, 0);
         line-height: 25px;
@@ -44,7 +46,8 @@ body{
         border-left:none;
         border-right:none;
         padding:30px 25%;
+        width: 200%;
     
     
     
-  }
+  } */
