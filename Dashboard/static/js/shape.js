@@ -25,6 +25,9 @@ var series = chart.series.push(am5percent.PyramidSeries.new(root, {
   categoryField: "category"
 }));
 
+root.interfaceColors.set("text", "#27eb00");
+root.interfaceColors.set("grid", "#27eb00");
+
 var data = [
     { value: (37018/172107)*100, category: "light"},
     { value: (17977/172107)*100, category: "circle" },

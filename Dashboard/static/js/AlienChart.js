@@ -31,7 +31,8 @@ var series = chart.series.push(am5percent.PictorialStackedSeries.new(root, {
 
 series.labelsContainer.set("width", 100);
 series.ticks.template.set("location", 0.6);
-
+root.interfaceColors.set("text", "#27eb00");
+root.interfaceColors.set("grid", "#27eb00");
 
 var data = [
   { value: (21926/172107)*100, category: "California"},
