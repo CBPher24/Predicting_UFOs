@@ -1,3 +1,5 @@
+document.getElementById("chartdiv2").innerHTML = root
+
 var root = am5.Root.new("chartdiv2");
 
 
