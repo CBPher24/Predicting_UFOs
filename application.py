@@ -36,5 +36,9 @@ def ohare():
 def phoenix():
     return render_template("phoenix.html")
 
+@application.route("/UfoPredictions")
+def UfoPred():
+    return render_template("ufo_predictions.html")
+
 if __name__ == "__main__":
     application.run(debug=True)

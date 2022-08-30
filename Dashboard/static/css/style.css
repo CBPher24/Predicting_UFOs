@@ -4,8 +4,7 @@
     background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
-    mask-border-width: 30px;
-    border-color: darkslategray;
+    border-bottom: 30px darkslategray;
 }
 .nav-link {
     text-decoration-color: greenyellow;
