@@ -56,14 +56,19 @@ body{
   #chartdiv1 {
     width: 100%;
     height: 500px;
+    color: black;
   }
   #chartdiv2 {
     width: 100%;
     height: 500px;
+<<<<<<< HEAD
   
   }
 
   .videos {
     width: 500px;
     height: 250px
+=======
+    color: black;
+>>>>>>> db46a1c0aae088da29f9ffb37a1d05725af202bb
   }
