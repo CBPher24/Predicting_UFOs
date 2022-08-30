@@ -15,7 +15,16 @@ root.setThemes([
 var chart = root.container.children.push(am5percent.SlicedChart.new(root, {
   layout: root.verticalLayout
 }));
-
+chart.children.unshift(am5.Label.new(root, {
+  text: "Top 5 Shapes of Sightings Seen",
+  fontSize: 25,
+  fontWeight: "500",
+  textAlign: "center",
+  x: am5.percent(50),
+  centerX: am5.percent(50),
+  paddingTop: 0,
+  paddingBottom: 0
+}));
 
 // Create series
 // https://www.amcharts.com/docs/v5/charts/percent-charts/sliced-chart/#Series
