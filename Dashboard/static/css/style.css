@@ -40,19 +40,7 @@ body{
     grid-column: 4 / -1;
     grid-row: 1; 
   }
-  /* .map{
 
-        background: rgb(0, 0, 0);
-        line-height: 25px;
-       
-        border-left:none;
-        border-right:none;
-        padding:30px 25%;
-        width: 200%;
-    
-    
-    
-  } */
   #chartdiv1 {
     width: 100%;
     height: 500px;
@@ -61,8 +49,7 @@ body{
   #chartdiv2 {
     width: 100%;
     height: 500px;
-
-  
+    color: black;  
   }
 
   .videos {

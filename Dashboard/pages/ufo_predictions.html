@@ -6,13 +6,8 @@
   <title>Fermi Paradox</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Leaflet CSS & JS -->
-  
-
-
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
@@ -22,6 +17,7 @@
 
   <!-- Full Deployment url href -->
   <!-- <base href = "http://predictingufos-env.eba-c2eezvmr.us-east-1.elasticbeanstalk.com/"> -->
+
 </head>
 
 <body>
@@ -73,12 +69,13 @@
     
       </div>
       <div class="container-fluid">
-        <div class ="row">
-        
+        <div class ="row">        
                 <div class="container-fluid">
                     <div class ="row">
-                        <div class="col-lg-4">
-                          <p><h4>Predicting the Top 5 UFO Shape Sightings</h4>This scatter plot utilizes our machine learning outputs to display the predicted average number of UFO sightings into the year 2100 by the most reported UFO sighting shape: Light, Circle, Fireball, Triangle, and Sphere. The average population can be selected and played through for the years 2015-2100. Additionally, this plot can be filtered by type of shape.  This plot shows that as the average population increases, the predicted number of sightings for each shape increases. The shape Light has the highest predicted growth of the average number of sightings. Followed by Circle, Fireball, Sphere, and lastly Triangle. The data for this graph utilizes Nuforc - National UFO Research Center data, a UFO dataset from Medium.com, and Historical State Population data.</p>
+                      <div class = col-1></div>
+                      <div class="col-lg-3">
+                        <h3>Predicting the Top 5 UFO' Shapes</h3>
+                        <p style="font-size: larger;">This scatter plot utilizes our machine learning outputs to display the predicted average number of UFO sightings into the year 2100 by the most reported UFO sighting shape: Light, Circle, Fireball, Triangle, and Sphere. The average population can be selected and played through for the years 2015-2100. Additionally, this plot can be filtered by type of shape.  This plot shows that as the average population increases, the predicted number of sightings for each shape increases. The shape Light has the highest predicted growth of the average number of sightings. Followed by Circle, Fireball, Sphere, and lastly Triangle. The data for this graph utilizes Nuforc - National UFO Research Center data, a UFO dataset from Medium.com, and Historical State Population data.</p>
                         </div>
                             <div class="col-lg-8">
                                 
@@ -92,8 +89,10 @@
                     <div class="container-fluid">
                         
                         <div class= "row">
-                            <div class="col-lg-4">
-                              <p><h4>Predicted Average Number of Sightings for the Top 5 States</h4>This line graph utilizes our machine learning outputs to display the projected average number of UFO sightings into the year 2100 for states with the most sightings: California, Florida, New York, Texas, and Washington. The thickness of the line indicates an increase in the number of sightings. This graph can be filtered by the 5 aforementioned states and displays the years 2015-2100. There is a visible linear trend of growth in the number of UFO sightings for all states over time. California and Florida have the largest predicted growth in the average number of sightings.  While New York, Texas, and Washington have similar predicted increases in the average number of sightings. The data for this graph utilizes Nuforc - National UFO Research Center data, a UFO dataset from Medium.com, and Historical State Population data. </p>
+                            <div class = col-1></div>
+                            <div class="col-lg-3">
+                              <h4>Predicted Average Number of Sightings for the Top 5 States</h4>
+                              <p style="font-size: larger;">This line graph utilizes our machine learning outputs to display the projected average number of UFO sightings into the year 2100 for states with the most sightings: California, Florida, New York, Texas, and Washington. The thickness of the line indicates an increase in the number of sightings. This graph can be filtered by the 5 aforementioned states and displays the years 2015-2100. There is a visible linear trend of growth in the number of UFO sightings for all states over time. California and Florida have the largest predicted growth in the average number of sightings.  While New York, Texas, and Washington have similar predicted increases in the average number of sightings. The data for this graph utilizes Nuforc - National UFO Research Center data, a UFO dataset from Medium.com, and Historical State Population data. </p>
                             </div>
                             <div class="col-lg-8">
                                 <div class='tableauPlaceholder' id='viz1661823500512' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PredictedSightingsbystate&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PredictedSightingsbystate&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PredictedSightingsbystate&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661823500512');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1120px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1120px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
