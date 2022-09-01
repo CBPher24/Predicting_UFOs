@@ -29,6 +29,7 @@ In 2021, the US Department of Defense acknowledged the legitimacy of leaked UAP 
 ## Conclusions and Predicitons
 * **Conclusions:**
     * Population growth is a better indicator of UFO sightings than computational power.
+        * Caution: It is not surprising that population size/growth is related to number of UFO sightings, simply because more people means more people to report sightings. Perhaps this features should be combined with additional features in an unsupervised model for future analysis. 
     * However, both population growth and computational power had low test scores from the linear regression, indicating perhaps better, more related features exist. 
 
 * **Predictions:**
